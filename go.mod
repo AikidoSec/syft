@@ -2,6 +2,8 @@ module github.com/anchore/syft
 
 go 1.26.8
 
+replace github.com/anchore/stereoscope => github.com/AikidoSec/stereoscope v0.0.14-0.20261016143008-0c460967c6f6
+
 require (
 	github.com/BurntSushi/toml v1.6.0
 	github.com/CycloneDX/cyclonedx-go v0.12.0
